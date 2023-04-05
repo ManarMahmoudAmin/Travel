@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Travel</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <!-- header start -->
+   <header class="header">
+      <a href="#" class="logo"><i class="fa-solid fa-plane"></i>Travel </a>
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#package">tour packages</a>
+         <a href="#blog">blog</a>
+         <a href="#review">review</a>
+         <a href="#reservation" class="btn"> book now</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </header>
+
+   <!-- end -->
+
+   <!-- home start -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>let's discover the world together</h3>
+                  <a href="#" class="btn"> book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>discover amazing places with us</h3>
+                  <a href="#" class="btn"> book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>let's discover the world together</h3>
+                  <a href="#" class="btn"> book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+               <div class="content">
+                  <h3>discover amazing places with us</h3>
+                  <a href="#" class="btn"> book now</a>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability start -->
+
+   <section class="availability">
+
+      <form action="">
+         
+         <div class="box">
+            <p>destination</p>
+            <select name="destination" class="input">
+               <option value="eg">Egypt</option>
+               <option value="">Dubai</option>
+               <option value="ge">Germany</option>
+               <option value="en">England</option>
+               <option value="sp">Spain</option>
+               <option value="th">Thailand</option>
+               <option value="ma">maldives</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>depart date</p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>return date</p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>duration</p>
+            <select name="duration" class="input">
+               <option value="1">1 day</option>
+               <option value="2">2 days</option>
+               <option value="3">3 days</option>
+               <option value="4">4 days</option>
+               <option value="5">5 days</option>
+               <option value="6">6 days</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>Number</p>
+            <input type="number" min="1" placeholder="1" class="input">
+         </div>
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about start -->
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/about.jpeg" alt="">
+         </div>
+
+         <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium repellat aliquam dolore voluptates.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium repellat aliquam dolore voluptates.</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- package start -->
+
+   <section class="package" id="package">
+
+      <h1 class="heading">our packages</h1>
+
+      <div class="swiper package-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$300</span>
+                  <img src="images/package1.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <div class="content-detail">
+                     <span class="small"><i class="fa fa-map-marker-alt text-primary mr-2"></i> England</span>
+                     <span class="small"><i class="fa fa-calendar-alt text-primary mr-2"></i> 3 days</span>
+                     <span class="small"><i class="fa fa-user text-primary mr-2"></i> 2 person</span>        
+                  </div>
+                  <h2>Discover amazing places of the world with us</h2>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$300</span>
+                  <img src="images/package2.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <div class="content-detail">
+                     <span class="small"><i class="fa fa-map-marker-alt text-primary mr-2"></i> England</span>
+                     <span class="small"><i class="fa fa-calendar-alt text-primary mr-2"></i> 3 days</span>
+                     <span class="small"><i class="fa fa-user text-primary mr-2"></i> 2 person</span>        
+                  </div>
+                  <h2>Discover amazing places of the world with us</h2>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$300</span>
+                  <img src="images/package3.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <div class="content-detail">
+                     <span class="small"><i class="fa fa-map-marker-alt text-primary mr-2"></i> England</span>
+                     <span class="small"><i class="fa fa-calendar-alt text-primary mr-2"></i> 3 days</span>
+                     <span class="small"><i class="fa fa-user text-primary mr-2"></i> 2 person</span>        
+                  </div>
+                  <h2>Discover amazing places of the world with us</h2>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$300</span>
+                  <img src="images/package4.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <div class="content-detail">
+                     <span class="small"><i class="fa fa-map-marker-alt text-primary mr-2"></i> England</span>
+                     <span class="small"><i class="fa fa-calendar-alt text-primary mr-2"></i> 3 days</span>
+                     <span class="small"><i class="fa fa-user text-primary mr-2"></i> 2 person</span>        
+                  </div>
+                  <h2>Discover amazing places of the world with us</h2>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$300</span>
+                  <img src="images/package5.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <div class="content-detail">
+                     <span class="small"><i class="fa fa-map-marker-alt text-primary mr-2"></i> England</span>
+                     <span class="small"><i class="fa fa-calendar-alt text-primary mr-2"></i> 3 days</span>
+                     <span class="small"><i class="fa fa-user text-primary mr-2"></i> 2 person</span>        
+                  </div>
+                  <h2>Discover amazing places of the world with us</h2>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$300</span>
+                  <img src="images/package6.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <div class="content-detail">
+                     <span class="small"><i class="fa fa-map-marker-alt text-primary mr-2"></i> England</span>
+                     <span class="small"><i class="fa fa-calendar-alt text-primary mr-2"></i> 3 days</span>
+                     <span class="small"><i class="fa fa-user text-primary mr-2"></i> 2 person</span>        
+                  </div>
+                  <h2>Discover amazing places of the world with us</h2>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+           
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- services start -->
+
+   <section class="services">
+      <h1 class="heading">our services</h1>
+      <div class="box-container">
+         <div class="box">
+            <span>1</span>
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus doloremque quod?</p>
+         </div>
+         <div class="box">
+            <span>2</span>
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus doloremque quod?</p>
+         </div>
+         <div class="box">
+            <span>3</span>
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus doloremque quod?</p>
+         </div>
+         <div class="box">
+            <span>4</span>
+            <i class="fas fa-globe"></i>
+            <h3>around the world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus doloremque quod?</p>
+         </div>
+         <div class="box">
+            <span>5</span>
+            <i class="fas fa-hiking"></i>
+            <h3>new adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus doloremque quod?</p>
+         </div>
+         <div class="box">
+            <span>6</span>
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus doloremque quod?</p>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- blog start -->
+
+   <section class="blog" id="blog">
+
+      <h1 class="heading">our blog</h1>
+
+      <div class="swiper blog-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="images/blog1.jpg" alt="">
+               <div class="icon">
+               <i class="fa-solid fa-camera"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/blog2.jpg" alt="">
+               <div class="icon">
+               <i class="fa-solid fa-camera"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/blog3.jpg" alt="">
+               <div class="icon">
+               <i class="fa-solid fa-camera-retro"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/blog4.jpg" alt="">
+               <div class="icon">
+               <i class="fa-solid fa-camera"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/blog5.jpg" alt="">
+               <div class="icon">
+               <i class="fa-solid fa-camera"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/blog6.jpg" alt="">
+               <div class="icon">
+               <i class="fa-solid fa-camera"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- review start -->
+   <section class="review" id="review">
+      <div class="swiper review-slider">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit porro!</p>
+               <div class="user">
+                  <img src="images/pic-1.png" alt="">
+                  <div class="user-info">
+                     <h3>rick sanchez</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit porro!</p>
+               <div class="user">
+                  <img src="images/pic-2.png" alt="">
+                  <div class="user-info">
+                     <h3>rick sanchez</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit porro!</p>
+               <div class="user">
+                  <img src="images/pic-3.png" alt="">
+                  <div class="user-info">
+                     <h3>rick sanchez</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit porro!</p>
+               <div class="user">
+                  <img src="images/pic-4.png" alt="">
+                  <div class="user-info">
+                     <h3>rick sanchez</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+   
+   <!-- end -->
+
+   <!-- reservation start -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">book now</h1>
+
+      <form action="">
+
+         <div class="container">
+
+            <div class="box">
+               <p>name</p>
+               <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+               <p>email</p>
+               <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+               <p>destination</p>
+               <select name="destination" class="input">
+                  <option value="eg">Egypt</option>
+                  <option value="">Dubai</option>
+                  <option value="ge">Germany</option>
+                  <option value="en">England</option>
+                  <option value="sp">Spain</option>
+                  <option value="th">Thailand</option>
+                  <option value="ma">maldives</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>depart date</p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>return date</p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>duration</p>
+               <select name="duration" class="input">
+                  <option value="1">1 day</option>
+                  <option value="2">2 days</option>
+                  <option value="3">3 days</option>
+                  <option value="4">4 days</option>
+                  <option value="5">5 days</option>
+                  <option value="6">6 days</option>
+               </select>
+            </div>
+   
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer start -->
+
+   <section class="footer">
+      <div class="box-container">
+         <div class="box">
+            <h3>contact us</h3>
+            <a href="#"> <i class="fas fa-phone"></i>+012 345 67890</a>
+            <a href="#"> <i class="fas fa-envelope"></i>info@example.com</a>
+            <a href="#"> <i class="fa fa-map-marker-alt mr-2"></i>123 Street, Cairo, Egypt</a>
+         </div>
+
+         <div class="box">
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> packages</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reservation</a>
+         </div>
+
+         <div class="box">
+            <h3>useful links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> refund policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> refund policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> refund policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> refund policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> refund policy</a>
+         </div>
+      </div>
+      <div class="social">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">&copy; copyright @ 2023 by <span>Manar</span></div>
+
+   </section>
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+</html>
